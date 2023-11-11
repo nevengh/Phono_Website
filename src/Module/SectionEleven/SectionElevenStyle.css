@@ -1,0 +1,39 @@
+.sec-11
+{
+    background: rgba(0,0,0,.75);
+}
+.boxx{
+    border-radius: 10px;
+    background: none;
+}
+.accordion-item{
+
+    background: none !important;
+    
+}
+.accordion-body{
+    color: white;
+    
+}
+.accordion-item {
+    color: var(--bs-accordion-color);
+    background-color: var(--bs-accordion-bg);
+    border: none !important;
+}
+.accordion-header{
+    width: 60% !important;
+}
+.accordion-button{
+    width: 100% !important;
+}
+
+
+.accordion-button:not(.collapsed)::after{
+    background-image: url(./../images/icons8-minus-30.png) !important
+}
+.accordion-button::after{
+    background-image: url(./../images/icons8-plus.svg) !important
+}
+.BG1-photo{
+    width: 60%;
+}

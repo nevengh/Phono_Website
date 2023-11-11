@@ -1,0 +1,15 @@
+.space-letter{
+    letter-spacing: 6px;
+}
+
+.sec-3-head{
+    font-size: 40px;
+}
+
+.sec-3-img-icon{
+    transition: all 1s ease-in-out;
+}
+.sec-3-img-icon:hover
+{
+    transform: scale(0.5);
+}

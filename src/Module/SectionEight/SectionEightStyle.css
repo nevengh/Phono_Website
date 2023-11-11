@@ -1,0 +1,12 @@
+.sec-9-img-hover
+{
+    transition: all 0.5s ease-in;
+}
+
+.sec-9-img-hover:hover
+{
+    transform: scale(1.1);
+}
+.sec-9-middle-image{
+    width: 300px;
+}

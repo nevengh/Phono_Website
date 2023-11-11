@@ -1,0 +1,18 @@
+.section-2 h5{
+    cursor: pointer;
+    transition: all .6s ease;
+}
+.section-2 h5:hover{
+    color: #eb0028;
+}
+.fast-truck
+{
+    font-size: 30px;
+    margin-top: 10px;
+    transition: .6s ease-in-out;
+    cursor: pointer;
+}
+
+.fast-truck:hover{
+    transform: scale(1.2);
+}

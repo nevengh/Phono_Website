@@ -1,0 +1,62 @@
+.carousel-item{
+    position: relative;
+}
+.text-slider{
+    position: absolute;
+    z-index: 4;
+    top: 30%;
+    right: 10%;
+    /* transform: translate(); */
+    color: white;
+}
+
+.text-slider-2{
+    position: absolute;
+    z-index: 4;
+    top: 30%;
+    left: 10%;
+}
+.text-slider-parag{
+    text-align: center;
+}
+.text-slider-head{
+    font-size:70px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.carousel-control-next-icon,.carousel-control-prev-icon{
+    background-color: black;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+}
+.hero img{
+    width: 100%;
+}
+
+
+
+@media (max-width:751px){
+    .text-slider,.text-slider-2{
+        position: absolute;
+        width: max-content;
+        z-index: 4;
+        top:50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        color: white;
+        padding: 20px 30px;
+        background: black;
+    }
+    .text-slider-2{
+        background: white;
+        color: black;
+    }
+    .text-slider-parag{
+        text-align: center;
+    }
+    .text-slider-head{
+        font-size:30px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+}

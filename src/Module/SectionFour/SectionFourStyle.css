@@ -1,0 +1,78 @@
+.sec-5{
+    height: 100vh;
+}
+
+.line-abs,.line{
+    position: relative;
+}
+.sec-5-phone{
+    width: 100%;
+}
+
+.circle,.circle-1,.circle-2,.circle-3{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.644);
+    left: 13%;
+    top: 60%;
+}
+.circle span,.circle-1 span,.circle-2 span,.circle-3 span{
+    position: absolute;
+    top: 100%;
+    left: 15%;
+    width: 2px;
+    height: 60px;
+    background: black;
+}
+.circle-1 span,.circle-3 span
+{
+    height: 190px;
+}
+
+
+.boox,.boox-1,.boox-2,.boox-3{
+    position: absolute;
+    top: 500%;
+    left: -100px;
+    width: max-content;
+}
+.boox-1,.boox-3
+{
+    top: 1100%;
+}
+.circle-1
+{
+    left: 30%;
+}
+.circle-2
+{
+    left: 60%;
+}
+.circle-3
+{
+    left: 85%;
+}
+.liight{
+    background: rgba(255,0,0,.75);
+    box-shadow: 5px 5px 25px rgba(233,0,0,.6),
+                -5px -5px 25px rgba(255,0,0,.75);
+                
+}
+
+
+@media(max-width:619px){
+    .circle span,.circle-1 span,.circle-2 span,.circle-3 span{
+        display: none;
+    }
+    .circle-1 span,.circle-3 span
+    {
+        display: none;
+    }
+    
+    
+    .boox,.boox-1,.boox-2,.boox-3{
+        display: none;
+    }
+}

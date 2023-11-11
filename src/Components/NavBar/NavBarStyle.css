@@ -1,0 +1,46 @@
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover,.nav-link:hover{
+    color: red;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+ul{
+    list-style: none;
+}
+.navbar-nav .dropdown-menu {
+    width: 600px;
+    padding: 20px;
+    cursor: pointer;
+    
+}
+ul {
+    padding-left: 0 !important;
+}
+.bg1{
+    width: 100%;
+}
+.dropdown-menu ul li:hover{
+    color: red;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.icons svg{
+    font-size: 1.rem;
+}
+
+/* Flgs Menu Start*/
+
+.select-menu{
+    width: 10%;
+    border: none;
+    position: relative;
+}

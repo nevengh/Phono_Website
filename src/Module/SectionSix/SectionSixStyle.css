@@ -1,0 +1,9 @@
+.sec-7-img
+{
+    width: 450px;
+    transition: all 1s ease-in;
+}
+.sec-7-img:hover{
+    transform: scale(1.1);
+    
+}

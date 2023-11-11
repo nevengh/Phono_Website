@@ -1,0 +1,34 @@
+.sec-8{
+    background: black;
+}
+
+.box{
+    /* height: 400px; */
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: white;
+}
+.num-circle{
+    background: black;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.num-circle span{
+    color: white;
+
+}
+
+@media(max-width:469px){
+    .sec-7-img
+{
+    transition: all 1s ease-in;
+    width:300px
+}}

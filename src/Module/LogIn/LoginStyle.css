@@ -1,0 +1,46 @@
+
+.heroo{
+    height: 80vh;
+    width: 100%;
+    /* margin: 0 auto; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #eb0028;
+
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    padding: 20px 50px;
+    margin: 0 auto;
+    background-color: #8a8a8ad8;
+    width: 40%;
+    height: max-content;
+    border-radius: 6px;
+}
+.form input{
+    border: none;
+    width: 100%;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 7px;
+}
+.form button{
+    padding: 10px 30px;
+    transition: all .5s ease-in;
+}
+.form button:hover{
+    background: #eb0028;
+}
+.links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
